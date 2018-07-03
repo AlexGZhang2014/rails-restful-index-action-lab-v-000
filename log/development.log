@@ -206,3 +206,10 @@ Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafd
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 65.191.0.83 at 2018-07-03 19:01:08 +0000
+
+
+Started GET "/students" for 65.191.0.83 at 2018-07-03 19:02:02 +0000
+Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.9ms)
